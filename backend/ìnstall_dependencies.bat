@@ -1,0 +1,1 @@
+pip install fastapi uvicorn sqlite3 sqlalchemy databases alembic bcrypt
