@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Depends, Request
 from sqlalchemy.orm import Session
 from database import get_db
 from models import URLMapping
-from utils import detect_bot, get_client_ip
+from utils import detect_bot, get_client_ip, get_country_from_ip, get_ip_info_online
 
 router = APIRouter()
 
@@ -18,6 +18,9 @@ async def check_url(url_id: str, request: Request, db: Session = Depends(get_db)
         raise HTTPException(status_code=404, detail="URL ID not found")
 
     is_bot = detect_bot(user_agent)
+
+    # Get country info (online or offline)
+    country_code = get_country_from_ip(client_ip) or get_ip_info_online(client_ip).get("country", "")
 
     if is_bot or url_mapping.force_safe:
         return {"redirect": url_mapping.safe_url}
