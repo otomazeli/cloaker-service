@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1b75896-d33d-43d5-a15f-d1a868bd4122" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/frontend/src/AdminDashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/api.js" afterDir="false" />
+    <list default="true" id="e1b75896-d33d-43d5-a15f-d1a868bd4122" name="Changes" comment="Initial Commit changes">
+      <change afterPath="$PROJECT_DIR$/backend/run_cloud.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +54,14 @@
     "Python.database.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/workspace/Development/python/cloaker-service/backend"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\Development\python\cloaker-service\backend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\Development\python\cloaker-service\backend" />
       <recent name="D:\workspace\Development\python\cloaker-service\config" />
@@ -89,11 +91,29 @@
       <option name="project" value="LOCAL" />
       <updated>1741663768216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit FrontEnd">
+      <option name="closed" value="true" />
+      <created>1741694947127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741694947127</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit changes">
+      <option name="closed" value="true" />
+      <created>1741695000190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741695000190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Initial Commit FrontEnd" />
+    <MESSAGE value="Initial Commit changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit changes" />
   </component>
 </project>
